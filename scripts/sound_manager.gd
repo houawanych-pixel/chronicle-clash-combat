@@ -14,7 +14,7 @@ func _ready() -> void:
 
 
 func play_sfx(kind: String) -> void:
-	var settings := (
+	var settings: Array = (
 		{
 			"sword": [390.0, 0.075, 0],
 			"hit": [120.0, 0.09, 2],
