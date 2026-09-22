@@ -1,0 +1,41 @@
+; Engine configuration file.
+; Chronicle Clash combat prototype - Godot 4.x
+config_version=5
+
+[application]
+config/name="Chronicle Clash: Combat Grounds"
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+
+[input]
+move_left={"deadzone":0.2,"events":[]}
+move_right={"deadzone":0.2,"events":[]}
+move_up={"deadzone":0.2,"events":[]}
+move_down={"deadzone":0.2,"events":[]}
+attack={"deadzone":0.2,"events":[]}
+shield={"deadzone":0.2,"events":[]}
+item_1={"deadzone":0.2,"events":[]}
+item_2={"deadzone":0.2,"events":[]}
+swap_items={"deadzone":0.2,"events":[]}
+restart={"deadzone":0.2,"events":[]}
+
+[layer_names]
+2d_physics/layer_1="World"
+2d_physics/layer_2="Player"
+2d_physics/layer_3="Enemies"
+2d_physics/layer_4="Player attacks"
+2d_physics/layer_5="Enemy attacks"
+2d_physics/layer_6="Pickups"
