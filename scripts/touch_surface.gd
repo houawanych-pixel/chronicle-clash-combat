@@ -124,7 +124,7 @@ func _draw() -> void:
 	for action in _button_positions():
 		var pos: Vector2 = _button_positions()[action]
 		var radius := 48.0 if action == "attack" else (31.0 if action == "swap_items" else 40.0)
-		var active := _held.get(action, false)
+		var active: bool = _held.get(action, false)
 		var color := Color("d9ad45") if action == "attack" else Color("558fb0")
 		if action.begins_with("item"):
 			color = Color("7363b5")
