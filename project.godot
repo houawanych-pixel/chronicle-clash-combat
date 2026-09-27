@@ -1,9 +1,9 @@
 ; Engine configuration file.
-; Chronicle Clash combat prototype - Godot 4.x
+; Evertrail action-RPG prototype - Godot 4.x
 config_version=5
 
 [application]
-config/name="Chronicle Clash: Combat Grounds"
+config/name="Evertrail"
 run/main_scene="res://scenes/main.tscn"
 
 [display]
