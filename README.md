@@ -63,6 +63,8 @@ Note: `display/window/handheld/orientation` in `project.godot` is currently `1` 
 
 ## Gameplay Vision
 
-Evertrail is being developed toward an original fantasy action-RPG experience with world exploration, region-based travel, combat, stealth, towns, interiors, and expandable adventure systems.
+Evertrail is an original top-down action-RPG focused on exploration, combat, stealth, world travel, towns, interiors, and expandable adventure systems. These images represent the projected gameplay and visual direction as development moves forward.
 
-See [docs/GAMEPLAY_VISION.md](docs/GAMEPLAY_VISION.md) for the visual direction.
+<img src="docs/images/Evertrail_Gameplay_Vision_01.png" alt="Evertrail gameplay vision: top-down exploration and combat" width="480">
+
+See [docs/GAMEPLAY_VISION.md](docs/GAMEPLAY_VISION.md) for all eight vision images (concept art, not the current build).
