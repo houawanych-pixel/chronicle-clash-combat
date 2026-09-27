@@ -4,6 +4,8 @@ Evertrail is an original mobile-first top-down action-RPG prototype built in God
 
 Set within the broader Chronicle Clash universe, Evertrail focuses on exploration, combat, stealth, world navigation, and location-based adventure systems.
 
+This repo is the Evertrail prototype and core-systems development repo; the current playable beta is built from [castle-rpg-testbed](https://github.com/houawanych-pixel/castle-rpg-testbed).
+
 Current direction:
 
 - top-down real-time action gameplay
